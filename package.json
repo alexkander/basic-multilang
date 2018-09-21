@@ -1,7 +1,7 @@
 {
-  "name": "node-module-base",
+  "name": "basic-i18n",
   "version": "0.0.1",
-  "description": "Template to create node modules repositories",
+  "description": "Basic implemetation of multilang support for NodeJS",
   "main": "index.js",
   "scripts": {
     "vpublish": "npm version patch -m \"Version %s\" && npm publish",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/arondn2/node-module-base.git"
+    "url": "git://github.com/arondn2/basic-i18n.git"
   },
   "keywords": [
     "nodejs",
@@ -23,7 +23,7 @@
   "author": "Alex J. Rondon <arondn2@gmail.com> (https://github.com/arondn2)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arondn2/node-module-base/issues"
+    "url": "https://github.com/arondn2/basic-i18n/issues"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -37,5 +37,7 @@
     "examples",
     "tests"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "require-reload": "^0.2.2"
+  }
 }
