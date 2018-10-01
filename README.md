@@ -64,7 +64,7 @@ Return the translation for a specific key.
 
 ##### Arguments
  Name  | Type     | Description
------ -|----------|-------------
+-------|----------|-------------
  `key` | `string` | Key to get translation.
 
 ```js
