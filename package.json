@@ -38,6 +38,5 @@
     "tests"
   ],
   "dependencies": {
-    "require-reload": "^0.2.2"
   }
 }
