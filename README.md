@@ -74,7 +74,7 @@ const translation = i18n.get('mysubdirectory.myfile.myphrasekey');
 // in file ./i18n/mysubdirectory/myfile.js[on], get poperty myphrasekey.es.
 ```
 
-### Troubles
+## Troubles
 
 If you have any kind of trouble with it, just let me now by raising an issue on the GitHub issue tracker here:
 
